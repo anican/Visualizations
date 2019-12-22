@@ -2,10 +2,6 @@ import numpy as np
 import pandas as pd
 import pickle
 
-# TODO
-# 1. reading in countries into map (correct)
-# 2. creating row for flags (correct)
-# 3. formatting url's with codes and replacing each item (X)
 with open('countries.pkl', 'rb') as f:
     countries = pickle.load(f)
 
